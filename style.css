@@ -1,0 +1,125 @@
+
+nav {
+  text-align: center;
+  font-size: 24px;
+}
+nav a {
+  color: blue;
+  text-decoration: none;
+  margin: 0 20px;
+}
+img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+}
+section {
+  text-align: center;
+  font-size: 20px;
+}
+/* Common styles for all pages */
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+/* Specific backgrounds for specific pages using body class */
+body.index {
+  background: url('https://i.postimg.cc/Vvskd55J/hc.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+body.threats {
+  background: url('https://i.postimg.cc/YSwkvjst/threats1.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+body.password {
+  background: url('https://i.postimg.cc/63MNbc5Q/password.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+body.quiz {
+  background: url('https://i.postimg.cc/Px3BQq2p/quiz.png') no-repeat center center fixed;
+  background-size: cover;
+
+}body.about {
+  background: url('https://i.postimg.cc/yxRv365z/about.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+  .bitgl {
+    width: 120px;
+    border-radius: 70px;
+  }
+
+.custom-button {
+      background-color: #ff0000;  /* Button background color */
+      color: whitesmoke;               /* Text color */
+      padding: 15px 32px;         /* Top-bottom & left-right padding */
+      font-size: 20px;            /* Font size */
+      border: 10px;               /* Remove default border */
+      border-radius: 8px;         /* Rounded corners */
+      cursor: pointer;            /* Cursor changes on hover */
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3); /* Optional: Shadow effect */
+      transition: background-color 0.3s ease; /* Smooth hover effect */
+    }
+
+@media screen and (max-width: 600px) {
+  .custom-button {
+    width: 200px; /* Adjust width for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+  #password {
+    width: 190%;
+  }
+}
+
+
+    #password:focus {
+      border-color: #111111; /* Border color when focused/clicked */
+      box-shadow: 0 0 8px #000000; /* Cool glowing effect */
+    }
+.custom {
+  border-radius: 10px;
+}
+
+.button {
+  background-color: #766bd8;
+  color: rgb(0, 0, 0);
+  padding: 12px 24px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+} 
+.button:hover {
+      background-color: #05f511;  /* Color on hover */
+}
+.main-heading {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+.about-heading {
+  text-align: center;
+  font-size: 48px;
+  color: white;
+}
+.centered-content {
+  text-align: center;
+  margin-top: 40px;
+}
+.password-heading {
+  color: yellow;
+  font-size: 2rem;
+}
+fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}

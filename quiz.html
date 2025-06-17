@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Security Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="quiz">
+  <header><h1 align="center"><font size="7" color="#FFA500">Cyber Security Quiz</font></h1></header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="threats.html">Threats</a>
+    <a href="password.html">Password Checker</a>
+    <a href="quiz.html">Quiz</a>
+    <a href="about.html">About</a>
+  </nav>
+  <section>
+  
+    <h2>Test Your Knowledge!</h2>
+    <form id="quizForm" onsubmit="return submitQuiz()">
+  <fieldset>
+    <legend style="color: #FF3CAC; font-size: 1.5rem;">1. What is phishing?</legend>
+    <label><input type="radio" name="q1" value="wrong"> A type of fish</label><br>
+    <label><input type="radio" name="q1" value="correct"> Fake emails to steal info</label>
+  </fieldset>
+
+  <fieldset>
+    <legend style="color: #FF3CAC; font-size: 1.5rem;">2. How can you protect your passwords?</legend>
+    <label><input type="radio" name="q2" value="correct"> Use a mix of letters, numbers, symbols</label><br>
+    <label><input type="radio" name="q2" value="wrong"> Use your name or birthdate</label>
+  </fieldset>
+
+  <button class="custom button" type="submit">Submit Quiz</button>
+</form>
+
+    <p id="quizResult"></p>
+  </section>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <footer><p align="center" >&copy; 2025 CyberShield</p></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
