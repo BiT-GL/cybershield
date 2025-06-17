@@ -25,24 +25,24 @@ body {
 
 /* Specific backgrounds for specific pages using body class */
 body.index {
-  background: url('https://i.postimg.cc/Vvskd55J/hc.png') no-repeat center center fixed;
+  background: url('image/hc.png') no-repeat center center fixed;
   background-size: cover;
 }
 
 body.threats {
-  background: url('https://i.postimg.cc/YSwkvjst/threats1.jpg') no-repeat center center fixed;
+  background: url('image/threats1.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 body.password {
-  background: url('https://i.postimg.cc/63MNbc5Q/password.jpg') no-repeat center center fixed;
+  background: url('image/password.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 body.quiz {
-  background: url('https://i.postimg.cc/Px3BQq2p/quiz.png') no-repeat center center fixed;
+  background: url('image/quiz.png') no-repeat center center fixed;
   background-size: cover;
 
 }body.about {
-  background: url('https://i.postimg.cc/yxRv365z/about.jpg') no-repeat center center fixed;
+  background: url('image/about.jpg') no-repeat center center fixed;
   background-size: cover;
 }
   .bitgl {
